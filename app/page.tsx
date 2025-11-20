@@ -1,4 +1,3 @@
-
 "use client";
 import React, { useEffect } from "react";
 import Image from "next/image";
@@ -60,7 +59,7 @@ export default function Home() {
                             <AuthForm />
                         </div>
 
-                        <Link href="/O nas" className="mt-8 w-full">
+                        <Link href="/About" className="mt-8 w-full">
                             <div className="rounded-md border p-6 text-sm text-zinc-700 dark:text-zinc-300">
                                 <h2 className="mb-2 font-semibold">O projekcie</h2>
                                 <p>

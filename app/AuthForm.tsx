@@ -62,7 +62,8 @@ export default function AuthForm() {
                     if (data.token) localStorage.setItem("token", data.token);
                     setMessage("Zalogowano");
                     setMessageType("success");
-                    router.push("/dashboard");
+                    // PRZESUNIĘTO na pasującą ścieżkę do pliku `app/Dashboard/page.tsx`
+                    router.push("/Dashboard");
                 } else {
                     setMessage("Zarejestrowano pomyślnie. Możesz się teraz zalogować.");
                     setMessageType("success");
