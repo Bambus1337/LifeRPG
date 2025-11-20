@@ -13,7 +13,7 @@ export async function Navbar() {
             <Link className="text-neutral-400 transition-colors hover:text-blue-500" href="/">
                 Strona Główna
             </Link>
-            <Link className="text-neutral-400 transition-colors hover:text-blue-500" href="/">
+            <Link className="text-neutral-400 transition-colors hover:text-blue-500" href="About.tsx">
                 Informacje o nas
             </Link>
             <button className="bg-white hover:bg-gray-400 text-black py-2 px-4 rounded-full ml-auto">
