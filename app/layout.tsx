@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "LifeRPG",
-  description: "LifeRPG to aplikacja do poprawy aktywności fizycznej, motywacji i produktywności poprzez elementy rywalizacji.",
+  description: "LifeRPG to aplikacja do poprawy , motywacji i produktywaktywności fizycznejności poprzez elementy rywalizacji.",
 };
 
 export default function RootLayout({
