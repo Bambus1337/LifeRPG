@@ -4,11 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:turbo": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:start": "docker-compose up -d",
+    "db:stop": "docker-compose down",
+    "db:restart": "docker-compose restart",
+    "db:logs": "docker-compose logs -f mariadb",
+    "db:reset": "docker-compose down -v && docker-compose up -d",
+    "db:shell": "docker-compose exec mariadb mysql -u liferpg -pliferpg123 liferpg_db"
   },
   "dependencies": {
+    "@huggingface/inference": "^4.13.4",
     "next": "16.0.3",
     "nextjs": "^0.0.3",
     "react": "19.2.0",
